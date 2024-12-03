@@ -44,7 +44,7 @@ def extract_numbers(file_path):
     return left_list, right_list
 
 if __name__ == "__main__":
-    input_file = 'input.csv'
+    input_file = 'day1/input.csv'
 
     calculate_similarity_score(input_file)
     calculate_distance(input_file)
